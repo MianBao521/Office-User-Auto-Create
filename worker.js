@@ -1,3 +1,6 @@
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request))
+})
 const notice = '公告，留空不显示'
 
 const officeConfig = {
