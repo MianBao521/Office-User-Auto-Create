@@ -206,7 +206,7 @@ const handleRequest = async request => {
 	switch (requestPath) {
 		case '/':
 			const html = await fetch(
-				'https://cdn.jsdelivr.net/gh/zayabighead/Office-User-Auto-Create@master/build/index.html'
+				'https://cdn.jsdelivr.net/gh/MianBao521/Office-User-Auto-Create@master/build/index.html'
 			)
 			return new Response(
 				await html.text(), {
